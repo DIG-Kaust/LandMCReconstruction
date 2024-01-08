@@ -1,7 +1,7 @@
-![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
+![LOGO]()
 
 Reproducible material for **XXX -
-Ravasi M., Author M., Author C.** submitted to XXX.
+Khatami MI.
 
 
 ## Project structure

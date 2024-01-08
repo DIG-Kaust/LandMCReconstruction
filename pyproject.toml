@@ -5,10 +5,12 @@ requires = [
     "wheel",
 ]
 
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "mypackage"
+name = "package"
 authors = [
-    {name = "Matteo Ravasi", email = "matteo.ravasi@kaust.edu.sa"},
+    {name = "Muhammad Iqbal Khatami", email = "Muhammadiqbal.khatami@kaust.edu.sa"},
 ]
 description = "My project description."
 readme = "README.md"
@@ -30,3 +32,4 @@ dynamic = ["version"]
 
 [tool.setuptools.packages]
 find = {}
+
