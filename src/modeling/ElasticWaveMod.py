@@ -100,11 +100,10 @@ class Elastic2DDevito():
             dt = self.model.critical_dt
             time_range = TimeAxis(start=self.geometry.t0, stop=self.geometry.tn, step=dt)
             src = RickerSource(name='src', grid=self.model.grid, f0=self.geometry.f0, time_range=time_range)
-            # src = RickerSource(name='src', grid=self.model.grid, f0=20,
-            #                    npoint=1, time_range=geometry.time_axis)
+
             src.coordinates.data[:, 0] = geometry.src.coordinates.data[isrc, 0]
             src.coordinates.data[:, 1] = geometry.src.coordinates.data[isrc, 1]
-            # src.data[:] = wav
+            src.data[:] = wav
 
         #Solve
         solver = ElasticWaveSolver(self.model, geometry, space_order=self.model.space_order)
