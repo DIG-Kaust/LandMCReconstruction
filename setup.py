@@ -22,6 +22,7 @@ setup(
     ],
     author='Muhammad Iqbal Khatami',
     author_email='muhammadiqbal.khatami@kaust.edu.sa',
+    
     install_requires=['numpy>=1.18.4',
                       'torch>=2.0.1',
                       'pylops==1.18.3',
@@ -30,7 +31,7 @@ setup(
     packages=find_packages(),
     use_scm_version=dict(root='.',
                          relative_to=__file__,
-                         write_to=src('AridMCSlopes/version.py')),
+                         write_to=src('src/version.py')),
     setup_requires=['setuptools_scm'],
 
 )

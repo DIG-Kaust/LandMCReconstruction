@@ -222,4 +222,3 @@ dependencies:
       - segyio==1.9.11
       - sympy==1.12
       - tqdm==4.66.1
-prefix: /home/khatamm/anaconda3/envs/arid-mcslopes
