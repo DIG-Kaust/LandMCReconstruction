@@ -1,4 +1,4 @@
-name: arid-mcslopes
+name: landmc
 channels:
   - numba
   - conda-forge
@@ -222,3 +222,4 @@ dependencies:
       - segyio==1.9.11
       - sympy==1.12
       - tqdm==4.66.1
+      - pyproximal

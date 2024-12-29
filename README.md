@@ -1,22 +1,23 @@
 ![LOGO]()
 
-Reproducible material for **XXX -
+Reproducible material for Multichannel wavefield reconstruction of land seismic data with stencil-based spatial gradients -
 Khatami MI.
 
 
 ## Project structure
 This repository is organized as follows:
 
-* :open_file_folder: **package**: python library containing routines for ....;
-* :open_file_folder: **data**: folder containing data (or instructions on how to retrieve the data
+* :open_file_folder: **data**: folder containing the instruction on how to retrieve the data
+* :open_file_folder: **landmc**: a set of package to do multichannel wavefield reconstruction of land seismic data
 * :open_file_folder: **notebooks**: set of jupyter notebooks reproducing the experiments in the paper (see below for more details);
-* :open_file_folder: **scripts**: set of python scripts used to run multiple experiments ...
 
 ## Notebooks
 The following notebooks are provided:
 
-- :orange_book: ``X1.ipynb``: notebook performing ...;
-- :orange_book: ``X2.ipynb``: notebook performing ...
+- :orange_book: ``1. Data Preparation-Synthetic Data.ipynb``: notebook performing the preprocessing of the synthetic data;
+- :orange_book: ``2. Data Preparation-Field Data.ipynb``: notebook performing the preprocessing of the field data;
+- :orange_book: ``3. LandMCReconstruction-Synthetic Data.ipynb``: notebook performing wavefield reconstruction of synthetic data;
+- :orange_book: ``4. LandMCReconstruction-Field Data.ipynb``: notebook performing wavefield reconstruction of field data;
 
 
 ## Getting started :space_invader: :robot:
@@ -44,6 +45,3 @@ Finally, to run tests simply type:
 ```
 pytest
 ```
-
-**Disclaimer:** All experiments have been carried on a Intel(R) Xeon(R) CPU @ 2.10GHz equipped with a single NVIDIA GEForce RTX 3090 GPU. Different environment 
-configurations may be required for different combinations of workstation and GPU.
