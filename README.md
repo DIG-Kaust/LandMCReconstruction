@@ -15,7 +15,7 @@ This repository is organized as follows:
 
 You can download the required dataset from the following link: https://drive.google.com/drive/folders/1F3dB9LmiSiUvK-RuncXfWxbOlHKc5Ijj?usp=sharing
 
-After downloading, place the contents into the data/ folder of this repository.
+After downloading, place the contents into the **data/** folder of this repository.
 
 ## Notebooks
 The following notebooks are provided:
