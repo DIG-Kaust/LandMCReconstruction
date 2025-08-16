@@ -1,6 +1,6 @@
 ![LOGO](logo.png)
 
-Reproducible material for Multichannel wavefield reconstruction of land seismic data with stencil-based spatial gradients -
+Reproducible material for "Multichannel wavefield reconstruction of land seismic data with stencil-based spatial gradients" -
 Khatami, MI and Ravasi, M. - 86th EAGE Annual Conference & Exhibition
 
 
