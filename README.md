@@ -8,7 +8,7 @@ Khatami, MI and Ravasi, M. - 86th EAGE Annual Conference & Exhibition
 This repository is organized as follows:
 
 
-* :open_file_folder: **data**: folder containing the instruction on how to retrieve the data
+* :open_file_folder: **data**: folder containing the data
 * :open_file_folder: **figures**: folder containing the image/figures produced from the experiments
 * :open_file_folder: **landmc**: a set of package to do multichannel wavefield reconstruction of land seismic data
 * :open_file_folder: **notebooks**: set of jupyter notebooks reproducing the experiments in the paper (see below for more details);
